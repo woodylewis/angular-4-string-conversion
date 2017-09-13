@@ -11,9 +11,7 @@ export class AppComponent {
   set: Array<any> = [];
   key: string;
 
-  //constructor(public input: string) {
-  constructor() {
-  }
+  constructor() {}
 
   public ngOnInit(): void {
     this.set = this.record.split(/,()/);  
