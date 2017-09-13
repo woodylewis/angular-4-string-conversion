@@ -20,7 +20,7 @@ describe('AppComponent', () => {
   it(`should initialize the input string `, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.stub).toEqual('(id,created,employee(id,firstname,employeeType(id), lastname),location)');
+    expect(app.record).toEqual('(id,created,employee(id,firstname,employeeType(id), lastname),location)');
   }));
   it(`should generate an array`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
