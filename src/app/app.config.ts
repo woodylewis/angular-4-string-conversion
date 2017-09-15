@@ -1,11 +1,15 @@
 export interface Config {
     input: string;
-    front: string;
-    back: string;
+    openSeparator: string;
+    closeSeparator: string;
+    unsortedEmployeeIndex: number;
+    unsortedEmployeeTypeIndex: number;
 }
 
 export const APP_CONFIG: Config = {
     input: '(id,created,employee(id,firstname,employeeType(id), lastname),location)',
-    front: '(',
-    back: ')'
+    openSeparator: '(',
+    closeSeparator: ')',
+    unsortedEmployeeIndex: 2,
+    unsortedEmployeeTypeIndex: 5
 };

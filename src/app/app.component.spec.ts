@@ -20,12 +20,22 @@ describe('AppComponent', () => {
   it(`should initialize the input string `, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.record).toEqual('(id,created,employee(id,firstname,employeeType(id), lastname),location)');
+    expect(app.inputRecord).toEqual('(id,created,employee(id,firstname,employeeType(id), lastname),location)');
   }));
   it(`should generate an array`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.set).not.toBe(null);
+  }));
+  it(`should generate an array of strings`, async(() => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
+    expect(app.set).toBeArrayOfStrings();
+  }));
+  it(`should generate an array of 9 elements`, async(() => {
+    const fixture = TestBed.createComponent(AppComponent);
+    const app = fixture.debugElement.componentInstance;
+    expect(app.set.length).toBe();
   }));
 /*
   it('should render title in a h1 tag', async(() => {
