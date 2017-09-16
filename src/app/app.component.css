@@ -1,0 +1,7 @@
+.display {
+    position: relative;
+    display: block;
+    height:24rem;
+    border: 1px solid blue;
+    margin-top: 8rem;
+}
