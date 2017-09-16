@@ -16,16 +16,10 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     expect(app).toBeTruthy();
   }));
-
   it(`should initialize the input string `, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     expect(app.inputRecord).toEqual('(id,created,employee(id,firstname,employeeType(id), lastname),location)');
-  }));
-  it(`should generate an array`, async(() => {
-    const fixture = TestBed.createComponent(AppComponent);
-    const app = fixture.debugElement.componentInstance;
-    expect(app.set).not.toBe(null);
   }));
   it(`should generate an array of strings`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
@@ -35,9 +29,9 @@ describe('AppComponent', () => {
   it(`should generate an array of 9 elements`, async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
-    expect(app.set.length).toBe();
+    expect(app.set).toBeArrayOfSize(9);
   }));
-/*
+  /*
   it('should render title in a h1 tag', async(() => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
