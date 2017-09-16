@@ -1,11 +1,12 @@
 <main class="container-fluid">
-    <div class="d-md-flex justify-content-center p-2">
-        <h4>String Conversion</h4>
-        <p>
-        <div class="d-flex flex-column justify-content-center display">
+    <div class="row">
+        <div class="col">
             <div class="p-2" *ngFor="let s of set">
                 {{ s }}
             </div>
+            <button type="button" class="btn btn-secondary rounded"
+                (click)="sort()">sort
+            </button>
         </div>
     </div>
 </main>

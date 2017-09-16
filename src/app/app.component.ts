@@ -44,7 +44,7 @@ export class AppComponent {
     }, this);
 
     this.formatOutput();
-    this.sort();
+    //this.sort();
   }
 
   private formatOutput() {
@@ -69,8 +69,7 @@ export class AppComponent {
     });
     let temp2 = this.set.slice(this.set.indexOf("created"), this.set.length);
     temp2.splice(temp2.indexOf("employee") + 1, 0, temp1[0], temp1[4]);
-    temp2.splice(temp2.indexOf("-- id") +1, 0, temp1[1], temp1[2], temp1[3]);
+    temp2.splice(temp2.indexOf("-- id") + 1, 0, temp1[1], temp1[2], temp1[3]);
     this.set = temp2;
-    console.log('SET ', this.set);
   }
 }
