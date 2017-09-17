@@ -1,9 +1,9 @@
 # Code Challenge
 
-## Development server
+Run `npm install` to build the node modules
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. 
+Run `ng serve` and navigate to `http://localhost:4200/` to see the app.
 
-## Running unit tests
+(Run `ng serve -o` to launch the app) 
 
-Run `ng test` to execute the unit tests via [Karma]
+Run `ng test` to execute the unit tests 
