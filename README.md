@@ -48,11 +48,11 @@ imports APP_CONFIG, an interface to a group of constants that include the input 
 
 - ***buildOutput***
 
-Create the first version of the array of separate values
-Remove the empty strings created by the split
-Remove the separators
-Store the 'id' string to copy into duplicates
-Insert the 'employee' and 'employeeType' strings in the right place
+Create the first version of the array of separate values  
+Remove the empty strings created by the split  
+Remove the separators  
+Store the 'id' string to copy into duplicates  
+Insert the 'employee' and 'employeeType' strings in the right place  
 Call formatOutput
 
 - ***formatOutput***
