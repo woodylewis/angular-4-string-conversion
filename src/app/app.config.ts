@@ -4,6 +4,11 @@ export interface Config {
     closeSeparator: string;
     unsortedEmployeeIndex: number;
     unsortedEmployeeTypeIndex: number;
+    unsortedFirstIdIndex: number;
+    unsortedFirstNameIndex: number;
+    unsortedSecondIdIndex: number;
+    unsortedThirdIdIndex: number;
+    unsortedLastNameIndex: number;
 }
 
 export const APP_CONFIG: Config = {
@@ -11,5 +16,10 @@ export const APP_CONFIG: Config = {
     openSeparator: '(',
     closeSeparator: ')',
     unsortedEmployeeIndex: 2,
-    unsortedEmployeeTypeIndex: 5
+    unsortedEmployeeTypeIndex: 5,
+    unsortedFirstIdIndex: 3,
+    unsortedFirstNameIndex: 4,
+    unsortedSecondIdIndex: 5,
+    unsortedThirdIdIndex: 6,
+    unsortedLastNameIndex: 7 
 };
