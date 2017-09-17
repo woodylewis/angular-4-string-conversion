@@ -34,19 +34,12 @@ describe('String conversion client', () => {
       expect(app.set).toBeArrayOfSize(9);
     });
   }));
-  
-  it('clicking button should sort the array', async(() => {
+  it('clicking sort button should sort the array', async(() => {
     fixture.nativeElement.querySelector('.sorter').click();
     expect(app.sort.calls.any()).toEqual(true);
   }));
-  /*
-  it('first element of array', async(() => {
-    let s = 'created';
-    fixture.nativeElement.querySelector('.sorter').click();
-    fixture.detectChanges();
-    fixture.whenStable().then(() => {
-      expect(app.set[0]).toEqual(s);
-    });
+  it('clicking reset button should reset the array', async(() => {
+    fixture.nativeElement.querySelector('.resetter').click();
+    expect(app.wasReset).toEqual(true);
   }));
-  */
 });

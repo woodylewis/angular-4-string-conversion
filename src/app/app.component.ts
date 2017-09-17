@@ -12,6 +12,7 @@ export class AppComponent {
   set: Array<any> = [];
   key: string;
   sorted: Boolean = false;
+  wasReset: Boolean = false;
 
   constructor() {}
 
@@ -82,5 +83,12 @@ export class AppComponent {
     //-- Copy the modified sort to the master array --
     this.set = temp2;
     this.sorted = true;
+    this.wasReset = false;
+  }
+
+  public reset() {
+    this.buildOutput();
+    this.wasReset = true;
+    this.sorted = false;
   }
 }

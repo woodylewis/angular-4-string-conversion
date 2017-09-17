@@ -1,10 +1,17 @@
-.outer {
-    margin: auto;
+.display {
+    width: 20rem;
+    height: 28rem;
+    margin: 2rem;
+    padding-left: 2rem;
 }
 
-.display {
+.display-card {
+    margin-top: 2rem;
+}
+
+.display-slot {
     width: 16rem;
-    height: 24rem;
-    border: 1px solid blue;
-    margin-top: 8rem;
+    margin-bottom: .5rem;
+    padding: 2rem;
+    text-align: left;
 }

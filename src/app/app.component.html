@@ -1,12 +1,24 @@
 <main class="container-fluid">
-    <div class="row">
-        <div class="col">
-            <div class="p-2" *ngFor="let s of set">
-                {{ s }}
+    <div class="d-flex justify-content-center">
+        <div class="card text-center display-card">
+            <div class="card-header">
+                Frontline Code Challenge
             </div>
-            <button type="button" class="btn btn-secondary rounded sorter"
-                (click)="sort()">sort
-            </button>
+            <div class="card-block">
+                <div class="d-flex flex-column display">
+                    <div class="p-2 bg-primary text-white display-slot" *ngFor="let s of set">
+                        {{ s }}
+                    </div>
+                </div>
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button" class="btn btn-primary sorter"
+                        (click)="sort()">Sort
+                    </button>
+                    <button type="button" class="btn btn-secondary resetter" 
+                        (click)="reset()">Reset
+                    </button>
+                </div>
+            </div>
         </div>
     </div>
 </main>
