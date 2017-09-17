@@ -8,8 +8,7 @@ Run `ng serve` and navigate to `http://localhost:4200/` to see the app (`ng serv
 Run `ng test` to execute the unit tests
 
 ### The challenge
-
-Convert the string: 
+Convert the string:
 ```
 "(id,created,employee(id,firstname,employeeType(id), lastname),location)" 
 ```
@@ -25,7 +24,6 @@ employee
 - lastname
 location
 ```
-
 Bonus (output in alphabetical order):
 ```
 created
@@ -38,7 +36,6 @@ employee
 id
 location
 ```
-
 ### The pattern
 **App Module** declares **AppComponent**
 
