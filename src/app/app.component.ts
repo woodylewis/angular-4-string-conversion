@@ -22,7 +22,7 @@ export class AppComponent {
 
   public buildOutput() {
     let copiesToInsert: Array<any> = [];
-    //-- Create the first version of the array of separate values
+    //-- Create the first version of the array of separate values --
     this.set = this.inputRecord.split(/,()/);  
     //-- Remove the empty strings created by the split --
     this.set = this.set.filter((currentValue) => {
