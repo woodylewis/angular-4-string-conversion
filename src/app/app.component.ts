@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 import { APP_CONFIG } from './app.config';
 
 @Component({
@@ -10,6 +10,7 @@ export class AppComponent {
   inputRecord: string = APP_CONFIG.input;
   set: Array<any> = [];
   key: string;
+  sorted: Boolean = false;
 
   constructor() {}
 
@@ -44,7 +45,6 @@ export class AppComponent {
     }, this);
 
     this.formatOutput();
-    //this.sort();
   }
 
   private formatOutput() {
@@ -71,5 +71,6 @@ export class AppComponent {
     temp2.splice(temp2.indexOf("employee") + 1, 0, temp1[0], temp1[4]);
     temp2.splice(temp2.indexOf("-- id") + 1, 0, temp1[1], temp1[2], temp1[3]);
     this.set = temp2;
+    this.sorted = true;
   }
 }
