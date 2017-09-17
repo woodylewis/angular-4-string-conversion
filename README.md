@@ -3,7 +3,7 @@
 ### Instructions
 Clone this repo or download the zip file and extract the directory  
 
-Run `cd` into the directory you created  
+`cd` into the directory you created  
 
 Run `npm install` to build the app
 
