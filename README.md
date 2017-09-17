@@ -58,10 +58,10 @@ Call formatOutput
 Add the leading '-'s where necessary
 
 ***sort***  
-Standard array sort
-Copy the strings with leading '-'
-Copy the 'employee' and '--id' strings
-Copy the modified sort to the master array
+Standard array sort  
+Copy the strings with leading '-'  
+Copy the 'employee' and '--id' strings  
+Copy the modified sort to the master array  
 
 ***reset***    
 Call buildOutput
