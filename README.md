@@ -3,6 +3,7 @@
 ### Instructions
 Clone this repo or download the zip file  
 `cd [***the directory you created***]  
+
 Run `npm install` to build the app
 
 Run `ng serve` and navigate to `http://localhost:4200/` to see the app (`ng serve -o` to launch automatically) 
