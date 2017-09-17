@@ -10,7 +10,6 @@ export class AppComponent {
   //-- initialize the input --
   inputRecord: string = APP_CONFIG.input;
   set: Array<any> = [];
-  key: string;
   sorted: Boolean = false;
   wasReset: Boolean = false;
 
