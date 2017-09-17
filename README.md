@@ -1,8 +1,9 @@
 ## Code Challenge
 
 ### Instructions
-Clone this repo or download the zip file  
-`cd [***the directory you created***]`    
+Clone this repo or download the zip file and extract the directory  
+
+Run `cd` into the directory you created  
 
 Run `npm install` to build the app
 
