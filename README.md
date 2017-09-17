@@ -57,13 +57,13 @@ Call formatOutput
 ***formatOutput***  
 Add the leading '-'s where necessary
 
-- ***sort***  
+***sort***  
 Standard array sort
 Copy the strings with leading '-'
 Copy the 'employee' and '--id' strings
 Copy the modified sort to the master array
 
-- ***reset***  
+***reset***    
 Call buildOutput
 
 
