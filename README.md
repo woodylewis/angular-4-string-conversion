@@ -1,7 +1,7 @@
 ## Code Challenge
 
 ### Instructions
-Run `npm install` to build the node modules
+Run `npm install` to build the app
 
 Run `ng serve` and navigate to `http://localhost:4200/` to see the app (`ng serve -o` to launch automatically) 
 
