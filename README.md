@@ -2,7 +2,7 @@
 
 ### Instructions
 Clone this repo or download the zip file  
-`cd [***the directory you created***]  
+`cd [***the directory you created***]`    
 
 Run `npm install` to build the app
 
